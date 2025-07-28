@@ -13,6 +13,7 @@ import Fade from "embla-carousel-fade";
 import "./carousel.css";
 import { Link } from "react-router-dom";
 import { formatLatinDate } from "../../utils/latinDate";
+import { slugifyTitle } from "../../utils/slugTitle";
 type PropType = {
   slides: CNNProps[]|null|undefined;
   options?: EmblaOptionsType;
