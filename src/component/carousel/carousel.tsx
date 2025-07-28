@@ -93,7 +93,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       {formatLatinDate(news.pubDate)}
                     </p>
                     {/* Link */}
-                    <Link className="flex gap-2 items-center text-button-primary">
+                    <Link to={`/beranda/nasional/${slugifyTitle(news.title)}`} className="flex gap-2 items-center text-button-primary">
                       Baca Selengkapnya <BsArrowUpRight />
                     </Link>
                   </div>
