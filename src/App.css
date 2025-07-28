@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@theme{
+  --color-Gray6:#F2F2F2;
+  --color-Gray1:#333333;
+  --color-Gray2:#4F4F4F;
+  --color-Gray3:#828282;
+  --color-secondary:#526071;
+  --color-button-primary:#0090FF;
+  --color-card-default:#E0E0E0;
+  --color-dark700:#1F2B39;
+}
+#root {
+    font-family: "Inter", sans-serif;
+  scrollbar-gutter: stable right;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+}
